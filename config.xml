@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.preciosa"
+        id        = "com.phonegap.preciosa_peru"
         version   = "0.1.1">
     <name>Preciosa</name>
 
     <description>
-        Precios de Argentina
+        Precios de Perú
     </description>
 
     <author href="http://mgaitan.github.io" email="gaitan@gmail.com">
