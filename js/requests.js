@@ -1,9 +1,10 @@
 /* Este es el modulo js cliente de la API rest */
 
-//var BASE_URL = "http://107.170.28.160";
-var BASE_URL = "http://preciosdeargentina.com.ar";
+var BASE_URL = "http://107.170.28.160";
+// var BASE_URL = "http://preciosdeargentina.com.ar";
 var API_URL = BASE_URL + "/api/v1";
 
+var SIMBOLO_MONEDA = 'S/. ';
 
 // buffer para enviar precios asincronicamente
 var precios_queue = new Queue('precios');
@@ -429,7 +430,7 @@ $(document).on("pageshow", "#producto", function() {
 
                     var li = '<li class="ui-li-static ui-body-inherit ui-li-has-count ';
                        li += extra_class + '"><h4>' + cadena + e.sucursal.nombre + '</h4> ';
-                       li += '<span class="ui-li-count ui-body-inherit" style="font-size:1.3em">$ ';
+                       li += '<span class="ui-li-count ui-body-inherit" style="font-size:1.3em">' + SIMBOLO_MONEDA;
                        li += e.precio + '</span> <p>' + e.sucursal.direccion + ' - ' + e.sucursal.ciudad_nombre;
                        li += '</p></li>';
 
