@@ -277,7 +277,7 @@ $(document).on("pagecreate", "#principal", function() {
         });
         // si quedó vacío, ponemos cartelito.
         if (html === ''){
-            html = '<li><a class="ui-btn ui-shadow ui-corner-all ui-icon-alert ui-btn-icon-left">No hay sucursales recientes</a></li>';
+            html = '<li><a class="ui-btn ui-shadow ui-corner-all ui-icon-alert ui-btn-icon-left">No hay comercios recientes</a></li>';
         }
 
         // para test en el movil
